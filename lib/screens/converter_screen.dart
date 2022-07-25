@@ -82,7 +82,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                       child: DropdownButtonFormField<String>(
                         style:
                             const TextStyle(color: Colors.black, fontSize: 19),
-                        dropdownColor: Color.fromARGB(255, 185, 162, 162),
+                        dropdownColor: Color.fromARGB(255, 172, 184, 196),
                         isExpanded: true,
                         value: dropdownValue1,
                         onChanged: (String? newValue) {
@@ -144,7 +144,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                       width: size.width,
                       child: DropdownButtonFormField<String>(
                         style: TextStyle(color: Colors.black, fontSize: 19),
-                        dropdownColor: Colors.grey,
+                        dropdownColor: Color.fromARGB(255, 172, 184, 196),
                         decoration: InputDecoration(),
                         isExpanded: true,
                         value: dropdownValue2,
